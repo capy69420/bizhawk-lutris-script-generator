@@ -32,7 +32,7 @@ for i in data:
         if match:
             versions.append({'name':name,'url':url})
             version = match.group()
-            print(version)
+            print(name)
 
         
 for v in versions:
